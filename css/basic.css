@@ -10,11 +10,16 @@
     box-sizing: border-box;
 }
 body,html{
-    height: 100px;
+    height: 100%;
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
 }
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    padding:  0 10px;
 }
 ul,ol{
     margin: 0;

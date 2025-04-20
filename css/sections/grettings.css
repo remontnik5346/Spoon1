@@ -64,7 +64,7 @@ padding-bottom: 154px;
 .grettings__title {
     font-family: var(--fontLF);
     font-weight: 700;
-    font-size: 71px;
+    font-size: clamp(3.063rem, 2.808rem + 1.358vi, 4.438rem);
     line-height: 110%;
     letter-spacing: 0.01em;
     text-align: center;
@@ -81,4 +81,24 @@ padding-bottom: 154px;
 
 .grettings__btn {
 margin-top: 34px;
+}
+.burger {
+display: none;
+flex-direction: column;
+row-gap: 5px;
+}
+.burger__line {
+width: 28px;
+height: 2px;
+background-color:#fff ;
+}
+
+
+@media(max-width:700px){
+    .nav__list{
+        display: none;
+    }
+    .burger{
+        display: flex;
+    }
 }

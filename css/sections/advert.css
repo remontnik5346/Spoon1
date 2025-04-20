@@ -30,3 +30,8 @@
 .link{
 
 }
+@media(max-width: 600px){
+    .advert__data{
+        margin-top: 50px;
+    }
+}

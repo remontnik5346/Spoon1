@@ -1,0 +1,48 @@
+.party {
+    margin-top: 124px;
+}
+.party__content {
+    display: flex;
+    justify-content: space-between;
+}
+.party__info-block {
+    max-width: 483px;
+}
+.party__text {
+    font-family: var(--fontLF);
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #5ab963;
+display: flex;
+align-items: center;
+column-gap: 20px;
+}
+.party__text::after{
+content: "";
+width: 30px;
+height: 2px;
+background-color: #5ab963;
+display: inline-block;
+}
+.party__info {
+}
+.info {
+}
+.party__info-extra {
+}
+.info-extra {
+}
+.btn {
+}
+.party__btn {
+}
+@media(max-width:680px){
+    .party__content{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .party{
+        margin-top:50px ;
+    }
+}

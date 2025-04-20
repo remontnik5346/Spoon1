@@ -49,3 +49,23 @@ align-self: center;
 .link {
 
 }
+@media(max-width:1150px){
+    .offers__item:last-child{
+        margin-top: 50px;
+        padding-left: 0px;
+    }
+    .offers__item:first-child{
+        padding-right: 0px;
+    }
+    .offers .container {
+        padding: 80px 10px;
+        }
+}
+@media(max-width:900px){
+.offers__item{
+    flex-direction: column;
+}
+.offers__data{
+    margin-top: 70px;
+}
+}
